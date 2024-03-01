@@ -3,10 +3,12 @@ This project is designed as a starting point for the NodeJS workshop aimed at in
 
 ## Prerequisites
 Before you begin, ensure you have installed the following:
-- NodeJS (v14.x or above)
-- npm (comes with NodeJS)
-- Git
-- A code editor (e.g., Visual Studio Code, Atom, Sublime Text)
+- **Node.js**: [Download and install Node.js](https://nodejs.org/en/download/), including npm (Node Package Manager) which comes with node. Use the LTS (Long Term Support).
+- **Git**: [Download and install Git](https://git-scm.com/downloads). This is necessary for cloning the starter code repository from GitHub.
+- **Code Editor**: Any code editor of your choice, but we recommend [Visual Studio Code](https://code.visualstudio.com/download) for its extensive support for JavaScript and Node.js development.
+- **Postman** or **Insomnia**: These are tools for testing APIs. You can choose either:
+  - [Download Postman](https://www.postman.com/downloads/)
+  - [Download Insomnia](https://insomnia.rest/download)
 
 ## Setup Instructions
 1. **Clone the Repository**
