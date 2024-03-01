@@ -58,6 +58,7 @@ To test your API, you can use [Postman](https://www.postman.com/) or [Insomnia](
 - [Express.js Documentation](https://expressjs.com/)
 - [Postman Learning Center](https://learning.postman.com/)
 - [Insomnia Documentation](https://docs.insomnia.rest/)
+- [Public APIs](https://github.com/public-apis/public-apis)
 
 ## Questions?
 If you have any questions or encounter issues, please reach out to the Max or other CougarCS Mentors after the workshop during Q&A time.
