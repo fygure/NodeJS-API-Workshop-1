@@ -59,6 +59,7 @@ To test your API, you can use [Postman](https://www.postman.com/) or [Insomnia](
 - [Postman Learning Center](https://learning.postman.com/)
 - [Insomnia Documentation](https://docs.insomnia.rest/)
 - [Public APIs](https://github.com/public-apis/public-apis)
+- [Chrome JSON Viewer Extension](https://chromewebstore.google.com/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?pli=1)
 
 ## Self Setup?
 If you want to set this up yourself first ensure that Node.js and npm are installed. Then you can set up your project folder and install the necessary dependencies.
