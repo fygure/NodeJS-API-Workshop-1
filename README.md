@@ -60,6 +60,15 @@ To test your API, you can use [Postman](https://www.postman.com/) or [Insomnia](
 - [Insomnia Documentation](https://docs.insomnia.rest/)
 - [Public APIs](https://github.com/public-apis/public-apis)
 
+## Self Setup?
+If you want to set this up yourself first ensure that Node.js and npm are installed. Then you can set up your project folder and install the necessary dependencies.
+Then you will have to create each file manually such as an `server.js` file, but be sure to update the package.json entry point. The package.json file also contains the scripts that you can use or create yourself.
+- `mkdir node-server`
+- `cd node-server`
+- `npm init -y` Creates the package.json file.
+- `npm install express` Installs express as a dependency in your package.json file, but you can replace `express` with another npm package.
+
+
 ## Questions?
 If you have any questions or encounter issues, please reach out to the Max or other CougarCS Mentors after the workshop during Q&A time.
 
