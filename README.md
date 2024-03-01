@@ -64,9 +64,9 @@ To test your API, you can use [Postman](https://www.postman.com/) or [Insomnia](
 ## Self Setup?
 If you want to set this up yourself first ensure that Node.js and npm are installed. Then you can set up your project folder and install the necessary dependencies.
 Then you will have to create each file manually such as an `server.js` file, but be sure to update the package.json entry point. The package.json file also contains the scripts that you can use or create yourself.
-- `mkdir node-server`
-- `cd node-server`
-- `npm init -y` Creates the package.json file.
+- `mkdir node-server` Make folder.
+- `cd node-server` Navigate terminal to folder.
+- `npm init` Creates the package.json file (appending ` -y` will use defaults).
 - `npm install express` Installs express as a dependency in your package.json file, but you can replace `express` with another npm package.
 
 
