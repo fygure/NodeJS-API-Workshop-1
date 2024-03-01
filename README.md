@@ -11,10 +11,10 @@ Before you begin, ensure you have installed the following:
   - [Download Insomnia](https://insomnia.rest/download)
 
 ## Setup Instructions
-1. **Clone the Repository**
+1. **Clone (or fork) the Repository**
    - Open a terminal or command prompt.
-   - Run `git clone https://github.com/fygure/NodeJS-Workshop-1.git`
-   - Navigate into the project directory: `cd NodeJS-Workshop-1`
+   - Run `git clone https://github.com/fygure/NodeJS-API-Workshop-1.git`
+   - Navigate into the project directory: `cd NodeJS-API-Workshop-1`
   
 2. **Install Dependencies**
    - Inside the project directory, run `npm install` to install the required npm packages.
