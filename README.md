@@ -9,6 +9,7 @@ Before you begin, ensure you have installed the following:
 - **Postman** or **Insomnia**: These are tools for testing APIs. You can choose either:
   - [Download Postman](https://www.postman.com/downloads/)
   - [Download Insomnia](https://insomnia.rest/download)
+- **Knowledge**: Please read up on basic [HTTP request methods](https://www.w3schools.com/tags/ref_httpmethods.asp) and [HTTP response codes](https://www.w3schools.com/tags/ref_httpmessages.asp).
 
 ## Setup Instructions
 1. **Clone (or fork) the Repository**

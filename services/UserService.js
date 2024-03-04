@@ -1,5 +1,5 @@
 const UserModel = require('../models/UserModel');
-
+////////////////////////////////////////////////////////////////////////
 async function getAllUsersWithProcessing() {
     try {
         const { users } = await UserModel.getAllUsers();
@@ -13,7 +13,7 @@ async function getAllUsersWithProcessing() {
         throw error;
     }
 }
-
+////////////////////////////////////////////////////////////////////////
 module.exports = {
     getAllUsersWithProcessing,
 };

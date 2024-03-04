@@ -8,9 +8,9 @@ const UserRoute = require('./routes/UserRoutes');
 //TODO: import another router
 
 const app = express();
-const PORT = process.env.PORT || 5000; //TODO: replace '5000' with your port number.
+const PORT = process.env.PORT || 5000; //1. TODO: replace '5000' with your port number.
 app.listen(PORT, () => {
-    console.log(`Server started on port: ${PORT}`);
+    console.log(`Server started on port: ${PORT}, navigate to http://localhost:${PORT}/`);
 });
 
 //parse application/x-www-form-urlencoded
@@ -30,7 +30,7 @@ app.use('/users', UserRoute);
 
 //Handle GET to root route
 app.get('/', (req, res) => {
-    //TODO: add key value pair to display a message in the response
+    //2. TODO: add key value pair to display a message in the response
     res.send({ 'Route': 'Root', 'HTTP': 'GET' });
 })
 
