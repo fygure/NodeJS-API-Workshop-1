@@ -19,9 +19,21 @@ async function getAllUsers() {
     }
 }
 ////////////////////////////////////////////////////////////////////////
+async function searchUsers(query) {
+    try {
+        const url = `https://dummyjson.com/users/search?q=${query}`;
+        const response = await axios.get(url);
+        console.log(response.data);
+        return response.data;
+    } catch (error) {
+        console.error('Error searching for users:', error);
+        throw error;
+    }
+}
+////////////////////////////////////////////////////////////////////////
 /*TODO: add more functions to call dummyjson*/
-
 
 module.exports = {
     getAllUsers,
+    searchUsers,
 };
